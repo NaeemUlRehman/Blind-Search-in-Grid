@@ -239,7 +239,7 @@ python app.py
 
 ```bash
 git clone https://github.com/NaeemUlRehman/Blind-Search-in-Grid.git
-cd Uninformed-Grid-Search
+cd Blind-Search-in-Grid
 ```
 
 #### Step 2: Create Virtual Environment (Recommended)
@@ -397,7 +397,7 @@ visualizer = GridVisualizer(
 ## Project Structure
 
 ```
-Uninformed-Grid-Search/
+Blind-Search-in-Grid/
 ├── app.py                 # Main application & orchestration
 ├── grid.py                # Grid management & obstacle handling
 ├── algorithms.py          # All 6 search algorithm implementations
