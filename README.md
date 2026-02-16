@@ -26,7 +26,7 @@ A comprehensive implementation of **six uninformed search algorithms** for pathf
 
 ---
 
-## Table of Contents
+## Table of Contents of the project
 
 - [Quick Start](#quick-start)
 - [Features](#features)
