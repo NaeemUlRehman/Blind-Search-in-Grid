@@ -56,7 +56,7 @@ class SearchAlgorithm:
         self.parent_map: Dict[Tuple[int, int], Optional[Tuple[int, int]]] = {}
         self.frontier_history: List[Set[Tuple[int, int]]] = []
         self.dynamic_obstacles_encountered: List[Tuple[int, int]] = []
-    
+    #pthon is good 
     def _reconstruct_path(self, current: Tuple[int, int]) -> List[Tuple[int, int]]:
         """
         Reconstruct the path from start to current position using parent map.
