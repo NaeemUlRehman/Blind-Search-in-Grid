@@ -74,13 +74,10 @@ class GridPathfinder:
             print(f"  Available algorithms: {', '.join(self.algorithms.keys())}")
             return
         
-        print(f"\n{'='*60}")
-        print(f"Running {algorithm_name} algorithm...")
-        print(f"{'='*60}")
         
         # Clear previous dynamic obstacles
         self.grid.clear_dynamic_obstacles()
-        
+        #i12
         try:
             # Create algorithm instance
             algorithm_class = self.algorithms[algorithm_name]
