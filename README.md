@@ -1,4 +1,4 @@
-# Uninformed Grid Search
+# Blind Grid Search
 
 <div align="center">
 
@@ -46,7 +46,7 @@ A comprehensive implementation of **six uninformed search algorithms** for pathf
 ```bash
 # 1. Clone the repository
 git clone https://github.com/NaeemUlRehman/Blind-Search-in-Grid.git
-cd Uninformed-Grid-Search
+cd Blind-Search-in-the-grid
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -239,7 +239,7 @@ python app.py
 
 ```bash
 git clone https://github.com/NaeemUlRehman/Blind-Search-in-Grid.git
-cd Uninformed-Grid-Search
+cd Blind-Search-in-Grid
 ```
 
 #### Step 2: Create Virtual Environment (Recommended)
@@ -397,7 +397,7 @@ visualizer = GridVisualizer(
 ## Project Structure
 
 ```
-Uninformed-Grid-Search/
+Blind-Search-in-Grid/
 ├── app.py                 # Main application & orchestration
 ├── grid.py                # Grid management & obstacle handling
 ├── algorithms.py          # All 6 search algorithm implementations
